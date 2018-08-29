@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project I'm utilizing for diving into Ruby.
 
-Things you may want to cover:
+* Ruby version: ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
 
-* Ruby version
+Currently working on deploying this using AWS EC2 Ubuntu instance. However, it's been a pain, so I might just dockerize it deploy that with ECS attached to an ELB instead.
 
-* System dependencies
+## Things that I'll be updating after I finish AWS deploy
 
-* Configuration
+* Migrate from sqlite3 to postgres
 
-* Database creation
+* Add user accounts
+  * Sign up / Sign in / Logout
+  * Random token auth sessions
 
-* Database initialization
+* Add forums
 
-* How to run the test suite
+* Add text game
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Make pretty
